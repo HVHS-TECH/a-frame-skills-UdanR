@@ -8,7 +8,7 @@
         <a-scene>
 
 <!-- Sky -->
-    <a sky
+    <a-sky
         color=lightblue
     ></a sky>
 
@@ -17,7 +17,7 @@
     <a-plane
         scale="50 50"
         color="lightgreen"
-        rotation="90 0 0"
+        rotation="-90"
     ></a-plane> 
     
     
@@ -25,18 +25,20 @@
     <a-sphere 
         position="-9 -2 -13"
         color="mediumseagreen"
-        scale="8 4 8
+        scale="8 4 8"
     ></a-sphere>        
+    
+    
     <a-sphere 
         position="9 -2 -13"
-        colour="mediumseagreen"
+        color="mediumseagreen"
         scale="8 4 8"
     ></a-sphere> 
     
     
 <!-- cloud - something doesn't look quite right here... -->
     <a-torus-knot
-        position="11 15 -20"
+        position="-15 15 -20"
         p="4" 
         q="5" 
         radius="3" 
@@ -53,7 +55,7 @@ There's nothing wrong with red, even though it doesn't look right. Hmm, I wonder
     <a-torus 
         position="0 0 -15"
         color="blue"
-        radius 12
+        radius="12"
         radius-tubular="0.25"
     ></a-torus>
     <a-torus 
@@ -69,10 +71,10 @@ There's nothing wrong with red, even though it doesn't look right. Hmm, I wonder
         radius-tubular="0.25"
     >
     <a-torus 
-        position="0 0 -15"
+        position="0 0 -4"
         color="red"
-        radius=9
-        radius-tubular="0.25"
+        radius=11
+        radius-tubular="0.5"
     ></a-torus>
 
     
